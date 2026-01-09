@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 
@@ -18,8 +19,28 @@
     border: none;
     border-radius: 4px;
     background-color: #469165;
-    cursor: pointer;
-    
+    cursor: pointer; 
+}
+.btn:hover{
+    background-color: #1c7642;
+    box-shadow: 2px 2px  5px 4px rgba(128, 128, 128, 0.379);
+}
+#banner-button-position{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.play-button{
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+.play-button a{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    gap: 10px;
 }
 
 .anchor-style-for-btn{
@@ -30,6 +51,7 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
 /* Main Style */
 nav{
     display: flex;
@@ -88,6 +110,10 @@ nav .btn a{
     color: #469165;
     font-size: 16px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
 }
 .banner-container h1{
     color: #FFFFFF;
@@ -109,9 +135,6 @@ nav .btn a{
 .banner-button-gap{
     margin-right: 16px;
 }
-
-
-
 #structure .structure-container{
     width: 84%;
     max-width: 1360px;
@@ -146,6 +169,7 @@ nav .btn a{
     border-radius: 8px;
     box-shadow: 0 0 8px 0 #00000010;
     text-align: center;
+    background-color: #FFFFFF;
 
 }
 .structure-card img{
@@ -180,28 +204,27 @@ nav .btn a{
 .solution-img{
     width: 600px;
     height: 600px;
-    border-radius: 12px;"
-
+    border-radius: 12px;
 }
 .solution-uper-text .p1{
     color: #469165;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
-    margin-bottom: 16px;"
+    margin-bottom: 16px;
 }
 .solution-uper-text h2{
     color: #001931;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 16px;"
+    margin-bottom: 16px;
 }
 .solution-uper-text .p2{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 40px;
-    max-width: 470px;"
+    max-width: 470px;
 }
 .solution-point{
     display: flex;
@@ -221,7 +244,7 @@ nav .btn a{
     justify-content: center; 
     text-align: center;
     background-color: #F7F6F2;
-    padding: 80px 40px;"
+    padding: 80px 40px;
 }
 .early-acss-container h2{
     font-size: 40px;
