@@ -213,3 +213,32 @@ nav .btn a{
     font-weight: 500px;
     line-height: 20px;
 }
+#early-acss .early-acss-container{
+    max-width: 1360px;
+    width: 85%;
+    margin: 2px auto 120px;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;"
+}
+.early-acss-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.early-acss-container .p1{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.early-acss-container .p2{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+
+}
