@@ -166,6 +166,43 @@ nav .btn a{
     font-size: 16px;
     line-height: 20px;
 }
+#solution{
+    padding: 120px;
+}
+.solution-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.solution-img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;"
+
+}
+.solution-uper-text .p1{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;"
+}
+.solution-uper-text h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;"
+}
+.solution-uper-text .p2{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    max-width: 470px;"
+}
 .solution-point{
     display: flex;
     align-items: center;
